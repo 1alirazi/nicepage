@@ -19,10 +19,9 @@
 
 .div-content {
     width: 80%;
-    margin: 2rem auto;
-    padding-bottom: 7rem;
-    padding-top: 3rem;
-
+    margin: 0rem auto;
+    padding-bottom: 8rem;
+    padding-top: 2rem;
 }
 
 .heading-sec {
@@ -71,7 +70,6 @@
 }
 
 /*********Universal Classes And Selector*********/
-
 /*********SECTION NAVBAR*********/
 .sec-nav {
     background: white;
@@ -102,7 +100,6 @@
 }
 
 /*********SECTION NAVBAR*********/
-
 /*********SECTION Main*********/
 .sec-main {
     background-color: #e8f2f3;
@@ -111,14 +108,14 @@
 
 .div-main {
     width: 50%;
-    display: inline-block;
 }
 
 .div-img {
-    background: url('../images/screencapture-nicepage-html-templates-preview-successful-financial-strategy-275824-2023-01-20-11_57_30.png');
+    position: relative;
+    top: 13px;
     background-size: cover;
-    height: 87vh;
-    width: 48%;
+    height: 35rem;
+    margin-top: -1rem;
 }
 
 .divM-content {
@@ -143,8 +140,6 @@
 /*********SECTION About*********/
 .sec-about {
     background: #292d33;
-    margin-top: -2rem;
-
 }
 
 .div-content-about {
@@ -225,7 +220,6 @@
 }
 
 /*********SECTION Manage*********/
-
 /*********SECTION Square*********/
 .sec-manage {}
 
@@ -262,9 +256,10 @@
 }
 
 .div-work-heading {
+    left: 4rem;
     width: 50%;
     position: relative;
-    bottom: 6.5rem;
+    bottom: 3.5rem;
 }
 
 .div-work-list {}
@@ -281,7 +276,7 @@
 .divlist {
     left: 1rem;
     position: relative;
-    margin-bottom: 1rem;
+    top: 2.4rem;
 }
 
 /*********SECTION services*********/
@@ -295,7 +290,7 @@
     background: #292d33;
     text-align: right;
     width: 65%;
-    padding: 3rem 0rem 5rem 14rem;
+    padding: 1rem 0rem 5rem 14rem;
     margin-top: 2rem;
 }
 
@@ -309,7 +304,9 @@
 }
 
 .para-z {
-    color: white
+    color: white;
+    line-height: 20px;
+    font-size: 13px;
 }
 
 .img-zindex {
@@ -318,33 +315,32 @@
 }
 
 .z-one {
-    top: 5rem;
-    height: 20rem;
-    width: 23rem;
+    top: 6rem;
+    height: 15rem;
+    width: 22rem;
     left: 9rem;
-
-
 }
 
 .z-two {
     width: 15rem;
     z-index: 1;
     left: 24rem;
-    bottom: 19.6rem;
+    bottom: 18rem;
     box-shadow: 1px 1px 10px black;
 }
 
 .z-three {
     bottom: 10.5rem;
-    left: 19rem;
-    width: 13rem;
+    left: 20rem;
+    width: 12rem;
 }
 
 .div-img-z {
-    bottom: 15.4rem;
+    bottom: 10.8rem;
     position: relative;
     width: 65%;
     right: 2rem;
+    height: 33rem;
 }
 
 .textr {
@@ -352,4 +348,233 @@
     text-align: left;
 }
 
+.ppara {
+    position: relative;
+    bottom: 5rem;
+    left: 29rem;
+}
+
 /*********SECTION services*********/
+/*********SECTION team*********/
+.sec-team {
+    background-color: #292d33;
+    position: relative;
+    bottom: 26rem;
+}
+
+.h2-team {
+    color: white;
+    text-transform: capitalize;
+}
+
+.pteam {
+    color: #c1c2c3;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.div-imgg {
+    width: 27%;
+    text-align: center;
+    margin-right: 3rem;
+}
+
+.teamimg {
+    width: 17rem;
+    height: 17.8rem;
+    box-shadow: 1px 1px 14px black;
+}
+
+.div-img-boxes {
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.div-img-box {
+    width: 86%;
+    background: white;
+    padding: 1rem;
+    position: relative;
+    bottom: 3.2rem;
+    padding-top: 2.4rem;
+    left: 0.5rem;
+}
+
+.h2-img-box {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 0.7rem;
+}
+
+.para-tomato {
+    color: #ee422f;
+    margin-bottom: 0.7rem;
+    font-weight: bold;
+}
+
+.icon-img-box {
+    margin-top: 1.5rem;
+    margin-right: 7px;
+}
+
+.para-team {
+    line-height: 18px;
+    font-style: italic;
+    font-size: 13.4px;
+    margin-bottom: 0.7rem;
+}
+
+.btn-img-box {
+    left: 26rem;
+    position: relative;
+    background: transparent;
+    border: 1.5px solid white;
+    padding: 8px 24px;
+    font-weight: lighter;
+}
+
+/*********SECTION team*********/
+/*********SECTION WHAT*********/
+.sec-what {
+    background-color: #e0e5eb;
+    position: relative;
+    bottom: 26rem;
+}
+
+.div-what {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 1rem 2rem;
+}
+
+.phead {
+    display: inline-block;
+    color: #ee422f;
+    font-weight: bold;
+}
+
+.i-what {
+    color: silver;
+    float: right;
+    font-size: 1.6rem;
+}
+
+.p-what {
+    color: #505358;
+    font-size: 13.3px;
+}
+
+.ul-what {}
+
+.li-what {
+    color: #505358;
+    line-height: 1.8rem;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.btn-what {
+    font-weight: 100;
+    background: #292d33;
+    padding: 8px 13px;
+}
+
+/*********SECTION WHAT*********/
+/*********SECTION contact*********/
+.sec-contact {
+    background: #292d33;
+    padding-bottom: 5rem;
+    position: relative;
+    bottom: 25.99rem;
+    margin-bottom: -25.99rem;
+}
+.div-contact {
+    width: 80%;
+    margin: auto;
+}
+
+.div-divcontent {
+    width: 80%;
+    margin: auto;
+}
+
+.div-left {
+    width: 30%;
+    bottom: 3rem;
+    position: relative;
+}
+
+.icon-c {
+    color: white;
+    font-size: 23px;
+    word-spacing: 1rem;
+    margin-right: 8px;
+}
+
+.para-left {
+    color: white;
+    font-size: 15px;
+    line-height: 23px;
+
+}
+
+.img-contact {
+    top: 3rem;
+    position: relative;
+    height: 21rem;
+    width: 100%;
+}
+
+.div-center {
+    width: 44%;
+    margin-right: 1rem;
+}
+
+.div-right {
+    width: 22%;
+}
+
+.input-c {
+    background: white;
+    border-radius: 0px;
+    border: none;
+    padding: 8px 22px 8px 9px
+}
+
+.btn-sub {
+    color: white;
+    border: 1.5px solid white;
+    background: transparent;
+    padding: 8px 26px;
+    text-transform: uppercase;
+}
+
+/*********SECTION contact*********/
+/*********SECTION Footer*********/
+.sec-footer {
+    background: #333333;
+    position: relative;
+
+}
+
+.footer-content {
+    padding: 3rem;
+}
+
+.dive {
+    width: 37%;
+    margin: auto;
+    text-align: center;
+    color: silver;
+    font-size: 12px;
+}
+
+.af {
+    color: white;
+    text-decoration: underline;
+}
+.divf{
+    margin-top: 5rem;
+}
+/*********SECTION Footer*********/
